@@ -1,0 +1,146 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+   }
+
+p {
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color:rgba(0, 255, 255, 0.158);
+background-image: url(https://image.freepik.com/free-vector/kids-drawing-painting-school-education-process-for-childrens-background-of-creativity-childhood-picture-child-paint-crayon-on-wall-illustration_80590-8912.jpg);
+background-position: center center;
+width: 100%;
+height: 300px;
+}
+
+
+
+#name {
+background-color:rgba(239, 245, 245, 0.521);
+font-size: 90px;
+color:dimgrey;
+margin: 0%;
+padding: 0%;
+}
+
+h1 {
+background-color:rgba(239, 245, 245, 0.521);
+font-size: 50px;
+color:dimgrey;
+margin: 0%;
+padding: 0%;
+text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color:dimgrey;
+  margin-top: 2cm;
+  padding: 0%;
+  }
+
+
+navigation {
+display: flex;
+justify-content: center;
+margin: 1cm;
+}
+
+button {
+height: 50px;
+width: 200px;
+color:dimgrey;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+border: 55m;
+border: azure;
+transition-duration: 0.4s;
+cursor: pointer;
+margin: 5px;
+
+}
+
+#car {
+font-size: 50px; 
+width: 100%;
+}
+
+
+#car_lirics {
+font-size: 50px;
+position: absolute;
+left: 5cm;
+top: 20cm;
+}
+  
+#car_photo { 
+  position: absolute;
+  right: 2cm;
+  top: 17cm;
+
+}
+ #train {
+  font-size: 50px; 
+  width: 100%;
+  }
+ 
+
+ #train_lirics {
+  position: absolute;
+  right: 2cm;
+  top: 40cm;
+  font-size: 50px;
+  }
+  
+  #train_photo {
+ 
+
+  position: absolute;
+  left: 2cm;
+  top: 40cm;
+  }
+
+
+#paint {
+  width: 100%;
+ }
+
+ #paint_lirics {
+ 
+  position: absolute;
+  left: 5cm;
+  top: 60cm;
+  font-size: 50px;
+  
+  
+  }
+  
+  #paint_photo {
+  position: absolute;
+  right: 5cm;
+  top: 57cm;
+  }
+
+
+
+footer {
+  background-color: rgb(255, 253, 253);
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  font-size: 20px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+#footer_pic{
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+}
