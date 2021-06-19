@@ -1,0 +1,15 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+   }
+.element{
+background-image: url(https://gif-kartinki.ru/ramki/azhurnaja-ramka.png);
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+width: 100%;
+}
+.text{
+  padding: 20% 20% 20% 20%;
+  font-size: 200%;
+}
