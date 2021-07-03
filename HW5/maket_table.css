@@ -22,12 +22,16 @@ nav{
     position:fixed;
     padding-left: 10px;
 }
+}
+.menu div{
+width: 100% ;
+}
 button{
     background: #e0f1afcc;
     margin: 15px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    width: 250px;
+    width: 100%;
     transition-duration: 0.4s;
     cursor: pointer; 
 }
