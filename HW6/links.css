@@ -1,0 +1,72 @@
+body {
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+padding: 10px;
+}
+.first a{
+display: inline-block;
+padding: 10px;
+border-right: 5px solid #f50404;
+color: forestgreen;
+}
+.first a[href="https://evjlobanova.github.io/HW5/maket_table.html#Triatlon"]{
+border-right: #ff000000;
+}
+.first:hover a{
+color: red;
+}
+.second{
+margin-top: 5px ;
+}
+.second span{
+display: inline-block;
+background-color: red;
+height: 50px;
+width: 5px;
+}
+.second a{
+color: forestgreen;
+display: inline-block;
+padding: 7px;
+}
+.second:hover a{
+color: red;
+}
+.third a{
+display: inline-block;
+padding: 10px;
+color: forestgreen;
+}
+.third:hover a{
+color: red;
+}
+.third a[href="https://evjlobanova.github.io/HW5/maket_table.html#Triatlon"]:before{
+content: "|";
+color: red;
+font-size: 50px;
+margin: 15px ;
+}
+.third a[href="https://evjlobanova.github.io/HW5/maket_table.html#Hockey"]:before{
+content: "|";
+color: red;
+font-size: 50px;
+margin: 15px ;
+}
+.third a[href="https://evjlobanova.github.io/HW5/maket_table.html#Football"]:before{
+content: "|";
+color: red;
+font-size: 50px;
+margin: 15px ;
+}
+.forth a{
+display: inline-block;
+padding: 10px;
+border-right: 5px solid #f50404;
+color: forestgreen;
+}
+.forth a:nth-of-type(4){
+border-right: 5px solid #f5040400;
+}
+.forth:hover a{
+color: red;
+}
