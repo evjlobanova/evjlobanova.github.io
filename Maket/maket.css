@@ -1,0 +1,115 @@
+body{
+background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.background_header{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://raw.githubusercontent.com/evjlobanova/evjlobanova.github.io/main/Maket/images/bg-5.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 55%;
+}
+.logo_wrapper{
+    top:0px;
+    width: 100%; 
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+a{
+    color: white;
+    padding-left: 5px;
+}
+a:hover{
+    color: #19bb95;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+header{
+top:0px;
+width: 100%;    
+position: absolute;    
+color: white;
+height: 600px;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+}
+button{
+   margin-top: 50px;
+    background: #19BB96;
+    width: 120px;
+    height: 40px;
+    border:0px;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+article{
+    align-self: center;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+.testimonials{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+} 
+.background_testimonials{
+    width:70%;
+    height: 300px;
+    background-image: url("https://raw.githubusercontent.com/evjlobanova/evjlobanova.github.io/main/Maket/images/bg-4.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    opacity: 25%;
+    align-items;: center
+} 
+
+.testimonials_text{   
+    width: 100%; 
+    top: 1200px;
+    position: absolute;     
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    }
+contacts{
+    align-self: center;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    background-color: white;
+    color: black;
+}
+footer{
+    align-self: center;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    background-color: white;
+    color: black;
+}
