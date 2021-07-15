@@ -1,0 +1,18 @@
+.switcher{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;   
+    }
+    .one_switcher_panel{
+        width: 55px;
+        height: 4px;
+        background: #E1E1E1;
+        margin-left: 7px;
+    }
+    .one_switcher_panel:hover{
+        width: 55px;
+        height: 4px;
+        background: #10BC97;
+        cursor: pointer;
+    }

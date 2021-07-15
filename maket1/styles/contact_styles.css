@@ -1,0 +1,81 @@
+contacts{
+    background-color: F7F7F7;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr 0.8fr;
+    grid-template-rows: 0.01fr 0.5fr 1fr 1fr 1fr 0.5fr;
+}
+.line{
+    background-color: E6E6E6;
+    grid-column:1/5;
+    grid-row: 1; 
+    height: 1px;
+}
+.contact_item{
+    grid-column:2;
+    grid-row: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+contacts h3{
+    text-align: center;
+}
+contacts pre{
+    color: 949494;
+    text-align: center;
+}
+.contact_item_details{
+    grid-column:2;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3px;
+}
+.contact_adress{
+    grid-column:3;
+    grid-row: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contact_phys_adress{
+    grid-column:3;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_email_adress{
+    grid-column:3;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_support{
+    grid-column:4;
+    grid-row: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contact_support_detalis{
+    grid-column:4;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_support_button{
+    grid-column:4;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+contacts pre{
+    font-family:  'glyphicons-halflings-regular', sans-serif;
+    font-size: 0.5em;
+}
+

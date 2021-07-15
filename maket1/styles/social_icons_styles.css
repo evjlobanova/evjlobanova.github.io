@@ -1,0 +1,62 @@
+.facebook{
+    border: solid 1px #E7EBEF;
+    border-radius: 100%;
+    width: 3em;
+   height: 3em;
+    background-image: url("https://img.icons8.com/material-rounded/24/000000/facebook-f--v1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    z-index: 3;
+}
+a[href="https://www.google.com/"], a[href="https://www.facebook.com/"], a[href="https://www.twitter.com/"], a[href="https://wwww.pinterest.com"]{
+    color: rgba(255, 0, 0, 0.014);
+    font-size: 2em;
+} 
+.facebook:hover{
+ background-size: 100%;
+ box-shadow: rgba(255, 0, 0, 0.014);
+}
+.google{
+    border: solid 1px #E7EBEF;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    background-image: url("https://img.icons8.com/ios/24/000000/google-plus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    z-index: 3;
+}
+.google:hover{
+    background-size: 100%;
+}
+.pinterest{
+    border: solid 1px #E7EBEF;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    background-image: url("https://img.icons8.com/material-rounded/24/000000/pinterest--v1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    z-index: 3;
+}
+.pinterest:hover{
+    background-size: 100%;
+}
+.twitter{
+    border: solid 1px #E7EBEF;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    background-image: url("https://img.icons8.com/android/24/000000/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    z-index: 3;
+}
+.twitter:hover{
+    background-size: 100%;
+}
+
