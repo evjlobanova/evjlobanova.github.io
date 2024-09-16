@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'fontawesome';
+    src: url('fonts/fontawesome-webfont.woff') format('woff'),
+         url('fonts/fontawesome-webfont.woff2') format('woff2'),
+         url('fonts/fontawesome-webfont.eot') format('eot'),
+         url('fonts/fontawesome-webfont.svg') format('svg'),
+         url('fonts/fontawesome-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glyphicons-halflings-regular';
+    src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
+        url('fonts/glyphicons-halflings-regular.svg') format('svg'),
+        url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
+        url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+        url('fonts/glyphicons-halflings-regular.woff2') format('woff2');    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'icon-font';
+src: url('icon-font.eot') format('eot'),
+    url('icon-font.svg') format('svg'),
+    url('icon-font.ttf') format('ttf'),
+    url('icon-font.woff') format('woff');
+}
+
+header article .testimonials .feedback_form contacts footer pre{
+    font-family:  'fontawesome', sans-serif;
+    font-size: 1em;
+}
+h1 h2{
+    font-family:  'glyphicons-halflings-regular', sans-serif;
+    font-size: 1.2em;
+    }

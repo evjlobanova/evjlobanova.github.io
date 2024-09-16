@@ -1,0 +1,61 @@
+.testimonials{
+    color: white;
+    background-color: black;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    ;
+}
+.testimonials::before{
+    content: "__";
+    background-image: url("https://raw.githubusercontent.com/evjlobanova/evjlobanova.github.io/main/Maket/images/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: top left;
+    opacity: 25%;
+    display: block;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row:1/5;
+    min-height: 310px;
+ 
+}
+.svg_wrapper{
+grid-column: 2;
+grid-row: 1;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+svg{
+    fill: #19BB96; 
+}
+.testimonials-text_wrapper{
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: C9C9C9;
+}
+.testimonials-author_wrapper{
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-top: 15px; 
+}
+.testimonials_author{
+    color: #19BB96;
+}
+.slider_pointer_wrapper{
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+    

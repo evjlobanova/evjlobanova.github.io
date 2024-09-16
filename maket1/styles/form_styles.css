@@ -1,0 +1,43 @@
+.feedback_forum{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-rows: 0.1fr 0.3fr 1fr 0.1fr;
+}
+.feedback_forum_name{
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color:535353; 
+}   
+
+form{
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 4; 
+}
+input[type=textarea] {
+ 
+    resize: none;
+    height:150px;
+}
+input, textarea {
+    font-family:inherit;
+    font-size: inherit;
+    box-sizing: border-box;
+    padding: 5px;
+    margin:10px 0; 
+    width: 100%;
+  }
+.border-customized-input {
+    border: 1px solid #E7E7E7;
+    border-radius: 1px;
+}
+form p{
+    text-align: center;
+    width: 100%;
+    margin:10px 0; 
+}

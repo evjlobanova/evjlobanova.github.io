@@ -1,0 +1,34 @@
+body{
+font-family:  'glyphicons', 'fontawesome', sans-serif;
+font-size: 0.8em;
+margin: auto;    
+display: grid;
+grid-template-columns: 1fr 
+grid-template-rows: 800px auto auto auto auto auto;
+grid-template-areas:
+"header"
+"article"
+"testimonials"
+"feedback_form"
+"contacts"
+"footer"
+}
+
+header{
+grid-template-areas: "header";
+}
+article{
+grid-template-areas: "article";
+}
+.testimonials{
+grid-template-areas: "testimonials";
+}
+.feedback_form{
+grid-template-areas: "feedback_form";
+}
+contacts{
+grid-template-areas: "contacts";
+}
+footer{
+grid-template-areas: "footer";
+}
